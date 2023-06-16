@@ -9,7 +9,8 @@
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <title>Document</title>
+<script src="app.js"></script>    
+<title>Document</title>
 </head>
 <body>
     <nav class="navbar bg-body-tertiary">
@@ -111,57 +112,32 @@
         <div class="h-wrap relative">
             <div class="fead-head">Feedbacks</div>
             <p>Our clients share their feedbacks</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn prev-button">Previous</button>
+  <button type="button" class="btn next-button">Next</button>
+</div>
         </div>
-        <div data-animation="slide" class="feedback-slider w-slider"
-         data-autoplay="false" data-easing="ease"
-          data-high-arrows="false" data-disable-swipe="false" 
-          data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" 
-          data-infinite="true" role="region" aria-label="carousel">
-    <div class="fdbk-mask no-margin w-slider-mask" id="w-slider-mask-1">
-        <div class="fdbk-slide w-slide" aria-label="1 of 5" 
-        role="group" style="transform:translateX(-804.514px);opacity: 1;" aria-hidden="true">
-        <div class="body-image" aria-hidden="true">
-            <div class="body-image w" aria-hidden="true"></div>
-          <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="">
-        </div>
-        </div>
-        </div>
-        <div class="fdbk-slide w-slide" aria-label="2 of 5" 
-        role="group" style="transform:translateX(-804.514px);opacity: 1;" aria-hidden="true">
-        <div class="body-image" aria-hidden="true">
-            <div class="body-image w" aria-hidden="true">
-          <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="">
-        </div>
-        </div>
-        </div>
-        <div class="fdbk-slide w-slide" aria-label="3 of 5" 
-        role="group" style="transform:translateX(-804.514px);opacity: 1;" aria-hidden="true">
-        <div class="body-image" aria-hidden="true">
-            <div class="body-image w" aria-hidden="true">
-          <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="">
-        </div>
-        </div>
-        </div>
-        <div class="fdbk-slide w-slide" aria-label="4 of 5" 
-        role="group" style="transform:translateX(-804.514px);opacity: 1;" aria-hidden="true">
-        <div class="body-image" aria-hidden="true">
-            <div class="body-image w" aria-hidden="true">
-          <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="">
-        </div>
-        </div>
-        </div>
-        <div class="fdbk-slide w-slide" aria-label="5 of 5" 
-        role="group" style="transform:translateX(-804.514px);opacity: 1;" aria-hidden="true">
-        <div class="body-image" aria-hidden="true">
-            <div class="body-image w" aria-hidden="true">
-          <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="">
-        </div>
-        </div>
-        </div>
-        <div aria-live="off" aria-atomic="true"
-        class="w-slider-aria-label" data-wf-ignore>Slide 3 of 5</div>
-        </div>
+        <div class="slider-container">
+            <div class="slide-item">
+                <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="Image 1">
+            </div>
+             <div class="slide-item">
+                <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="Image 2">
+            </div>
+             <div class="slide-item">
+                <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="Image 3">
+            </div>
+             <div class="slide-item">
+                <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="Image 4">
+            </div>
+             <div class="slide-item">
+                <img src="https://marketplace.canva.com/EAFijA-Es8I/1/0/1600w/canva-beige-minimalist-stay-tuned-coming-soon-instagram-post-iv_vQnhdRkY.jpg" alt="Image 5">
+            </div>
         </div>    
+        <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn prev-button">Previous</button>
+  <button type="button" class="btn next-button">Next</button>
+</div>
 </div>
 </section>
 
