@@ -18,3 +18,9 @@ nav{
     height: 100%;
     object-fit: cover;
 }
+.main-page{
+    background-color: #e7a2a9;
+}
+.main-page img{
+    max-width: 100px;
+}
