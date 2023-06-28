@@ -10,6 +10,12 @@ nav a{
     color: #414141;
     font-family: var(--secondary-font);
     font-size: 14px;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover, nav li.active a{
+    text-decoration: none;
+    color: #cd819d;
+    font-size: 15px;
 }
  
 nav .brand{
@@ -56,20 +62,30 @@ nav .brand{
     font-family: var(--primary-font);
     font-size: 18px;
 }
-.all-content button{
+
+.all-content .btn-branding-outline{
     background-color: #f5f3ef ;
     color: #414141;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 20px;
     border-radius: 100px;
-    padding-top: 7px;
+     border: 1.5px solid #3f3f3f;
+      padding-top: 7px;
     padding-bottom: 7px;
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 30px;
-    border: 1.5px solid #3f3f3f;
-}
+    font-family: var(--secondary-font);
+   
+    }
+
 .all-content a{
     color: #414141;
+    transition: all 100ms ease-in-out;
 }
-
-
+.all-content a:hover{
+    background-color: #f1c4c3;
+}
+ 
