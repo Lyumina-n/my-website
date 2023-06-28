@@ -1,5 +1,22 @@
+:root{
+--primary-font: 'Ysabeau SC', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
+}
 nav{
     background-color: #f5f3ef;
+    
+}
+nav a{
+    color: #414141;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    
+}
+nav .brand{
+    font-family: var(--primary-font);
+    font-size: 30px;
+    font-weight: medium 500;
+    padding-left: 50px;
 }
 .slider-container{
     width: 100%;
@@ -20,7 +37,19 @@ nav{
 }
 .main-page{
     background-color: #e7a2a9;
+    
+ 
 }
-.main-page img{
-    max-width: 100px;
+.main-text{
+    color: whitesmoke;
 }
+.main-phrase{
+    margin-top: 125px;
+    font-family: var(--primary-font);
+    font-size: 18px;
+}
+.subtitle-hero{
+    font-family: var(--secondary-font);
+
+}
+
