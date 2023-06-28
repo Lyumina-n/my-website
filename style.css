@@ -88,4 +88,8 @@ nav .brand{
 .all-content a:hover{
     background-color: #f1c4c3;
 }
- 
+ .main-pic img{
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+ }
