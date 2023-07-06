@@ -159,3 +159,12 @@ nav .brand{
  .about-all-text{
     padding-bottom: 50px;
  }
+ .niche-page{
+    background-color: var(--primary-color);
+ }
+ .niche-subject{
+    background-image: url(src/curved-line.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+ }
