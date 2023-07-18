@@ -332,6 +332,9 @@ nav .brand{
     width: 100px;
     height: 80px;
    }
+   .calendar-page{
+    background-color: var(--primary-color);
+   }
    .calendar ul{
     list-style: none;
    }
@@ -347,4 +350,41 @@ nav .brand{
    }
    .month .next{
     float: right;
+   }
+   .month ul{
+    margin: 0;
+    padding: 0;
+   }
+   .month ul li{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+   }
+   .weekdays{
+    margin: 0;
+    padding: 10px 0;
+    background-color: yellow;
+   }
+   .weekdays li{
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+   }
+   .days{
+    padding: 10px 0;
+    background: blue;
+    margin: 0;
+   }
+   .days li{
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    color: orangered;
+   }
+   .days li .active-day{
+    padding: 5px;
+    background-color: orangered;
+    color: blue !important;
+
    }
