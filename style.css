@@ -332,3 +332,19 @@ nav .brand{
     width: 100px;
     height: 80px;
    }
+   .calendar ul{
+    list-style: none;
+   }
+   .month{
+    padding: 70px 25px;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+   }
+   .month .prev{
+    float: left;
+
+   }
+   .month .next{
+    float: right;
+   }
