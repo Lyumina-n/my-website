@@ -309,13 +309,11 @@ nav .brand{
 
 .service-page{
     background-color: var(--primary-color);
-
-
 }
 .serv-img{
     width: 320px;
     height: 530px;
-   border-radius: 8px;
+   border-radius: 5px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3 );
 }
 .serv-txt-1{
