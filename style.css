@@ -339,16 +339,18 @@ nav .brand{
     list-style: none;
    }
    .month{
-    padding: 50px 25px;
-    background-color: red;
+    padding: 20px 25px;
+    background-color:#e5ced0;
     width: 100%;
     text-align: center;
    }
    .month .prev{
+    padding-top: 27px;
     float: left;
 
    }
    .month .next{
+    padding-top: 27px;
     float: right;
    }
    .month ul{
@@ -366,7 +368,7 @@ nav .brand{
    }
    .weekdays li{
     display: inline-block;
-    width: 13.6%;
+    width: 13.8%;
     text-align: center;
    }
    .days{
@@ -402,4 +404,7 @@ text-align: left;   }
     background-color: orangered;
     color: blue !important;
 
+   }
+   table{
+     border: 1px solid black;
    }
