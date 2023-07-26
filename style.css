@@ -387,5 +387,9 @@ nav .brand{
    }
    td a{
     text-decoration: none;
+    color: black;
+   }
+   td a:hover{
+    text-decoration: none;
    }
    
