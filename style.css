@@ -335,6 +335,7 @@ nav .brand{
    .calendar-page{
     background-color: var(--primary-color);
    }
+ 
    .calendar ul{
     list-style: none;
    }
@@ -343,6 +344,7 @@ nav .brand{
     background-color:#e5ced0;
     width: 100%;
     text-align: center;
+    font-family: var(--primary-font);
    }
    .month .prev{
     padding-top: 27px;
@@ -360,51 +362,30 @@ nav .brand{
    .month ul li{
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-size: 16px;
+   }
+   .month .current-year{
+    font-size: 20px;
+    letter-spacing: 4px;
    }
    .weekdays{
     margin: 0;
     padding: 10px 0;
-    background-color: yellow;
+    background-color: #e5ced0 ;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    letter-spacing: 1.5px;
    }
    .weekdays li{
     display: inline-block;
     width: 13.8%;
     text-align: center;
    }
-   .days{
-    padding: 10px 1px;
-    background-color: var(--secondary-color);
-    margin: 0;
+   td p.day-123{   
+    font-family: var(--primary-font);
+    font-size: 15px;
    }
-   .days li{
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    margin-bottom: 5px;
-    
-    
+   td a{
+    text-decoration: none;
    }
-   .day-1{
-    background-color: var(--primary-color);
-    padding: 50px 70px;  
-    
-   }
-   .start{
-    margin-left: 12px;
-   }
-   .days a {
-    color: green;
-   }
-   .days a h3{
-    font-size: 10px;
-padding-top: 3px;
-text-align: left;   }
-   .days li .active-day{
-    padding: 5px;
-    background-color: orangered;
-    color: blue !important;
-
-   }
-   table{
-     border: 1px solid black;
-   }
+   
