@@ -262,10 +262,6 @@ nav .brand{
     right: -.4vw
 }
 
-.point-pixel._03 {
-    
-}
-
 .point-pixel._04 {
     top: 12.7vw;
     left: 58.3vw
@@ -416,4 +412,20 @@ font-family: var(--secondary-font);
    }
    .feed-head .next-feed{
     float: right;
+   }
+   .fdb-cards{
+    display: flex;
+    justify-content: space-between;
+    
+   }
+   .fdb-crd{
+    height: 400px;
+    width: 360px;
+    border: 2px solid #414141;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    box-shadow: 4px 3px rgba(0, 0, 0, 0.3 );
+
    }
