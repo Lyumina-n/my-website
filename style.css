@@ -25,25 +25,7 @@ nav .brand{
     font-size: 30px;
     font-weight:  500;
     padding-left: 50px;
-}
-.slider-container{
-    width: 100%;
-    height: 300px;
-    
-    white-space: nowrap;
-}
-.slide-item{
-    display: inline-block;
-    width: calc(100%/3);
-    height: 100%;
-    transition: 0.3ms, ease-in-out;
-}
-.slide-item img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.main-page{
+}.main-page{
     background-color: #e7a2a9;
     width: 100%;  
  
@@ -389,7 +371,7 @@ nav .brand{
     text-decoration: none;
    }
    .feedback-page{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     text-align: center;
    }
    .feed-head ul{
@@ -401,9 +383,9 @@ font-family: var(--secondary-font);
 
    }
    .feedback-hd h2{
-      font-size: 50px;
+      font-size: 60px;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     padding-top: 50px;
     letter-spacing: 2px;
 }
@@ -413,19 +395,38 @@ font-family: var(--secondary-font);
    .feed-head .next-feed{
     float: right;
    }
-   .fdb-cards{
-    display: flex;
-    justify-content: space-between;
-    
+   .feed-subhead{
+    font-family: var(--secondary-font);
+    font-size: 15px;
    }
-   .fdb-crd{
-    height: 400px;
-    width: 360px;
-    border: 2px solid #414141;
+   .carousel{
+    position: relative;
+   }
+   .carousel-item{
+    height: 300px;
+    width: 600px;
+    border: 1px solid #414141;
     padding: 10px;
     margin-bottom: 50px;
     border-radius: 8px;
-    background-color: var(--primary-color);
-    box-shadow: 4px 3px rgba(0, 0, 0, 0.3 );
-
+    background-color: #fff;
+    box-shadow: 4px 3px rgba(0, 0, 0, 0.2 );
+margin-left: 25px;
+font-family: var(--primary-font);
+font-size: 12px;
+display: none;
+   }
+   .carousel-item-selected{
+    display: block;
+   }
+   .carousel-nav{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    left: 0;
+   }
+   .carousel-button{
+    width: ;
    }
