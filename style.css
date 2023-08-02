@@ -399,12 +399,12 @@ font-family: var(--secondary-font);
     font-family: var(--secondary-font);
     font-size: 15px;
    }
-   .carousel{
-    position: relative;
+   .fdb-cards{
+    display: inline-flex;
    }
-   .carousel-item{
+   .fdb-crds{
     height: 300px;
-    width: 600px;
+    width: 300px;
     border: 1px solid #414141;
     padding: 10px;
     margin-bottom: 50px;
@@ -414,19 +414,4 @@ font-family: var(--secondary-font);
 margin-left: 25px;
 font-family: var(--primary-font);
 font-size: 12px;
-display: none;
-   }
-   .carousel-item-selected{
-    display: block;
-   }
-   .carousel-nav{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    padding: 20px 0;
-    bottom: 0;
-    left: 0;
-   }
-   .carousel-button{
-    width: ;
    }
