@@ -164,12 +164,78 @@ nav .brand{
  .niche-subhead p{
     font-size: 20px;
  }
-.niche-back{
+ ._12-grid{
+    min-height: 700px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: block;
+    position: relative;
+ }
+.line-desk{
+    z-index: 0;
+    width: 98%;
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
 }
-.niche-back img{
-    height: 380px;
-    padding: 10px;
-    margin-bottom: 50px;;
+.round-point{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+box-shadow: 2px 2px 1px 1.5px rgba(63, 63, 63, 0.2 );
+}
+.number-pixel{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 25px;
+}
+.niche-point{
+    grid-row-gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+ ._00{
+    top: -25px;
+    bottom: 560px;
+    left: 10px;
+}
+._01{
+     top: -25px;
+    bottom: 550px;
+    left: 530px;
+}
+._02{
+    top: 150px;
+    left: 680px;
+}
+._03{
+    top: 150px;
+    left: 220px;
+}
+._04{
+    top: 325px;
+    left: 460px;
+}
+._05{
+    top: 325px;
+    left: 890px;
 }
 .serv-head{
      font-family: var(--secondary-font);
