@@ -203,6 +203,7 @@ box-shadow: 2px 2px 1px 1.5px rgba(63, 63, 63, 0.2 );
     font-family: var(--secondary-font);
     font-size: 20px;
     line-height: 25px;
+    padding-top: 10px;
 }
 .niche-point{
     grid-row-gap: 15px;
@@ -211,10 +212,14 @@ box-shadow: 2px 2px 1px 1.5px rgba(63, 63, 63, 0.2 );
     display: flex;
     position: absolute;
 }
+.niche-point a:hover{
+    text-decoration: none;
+    cursor: context-menu
+}
  ._00{
     top: -25px;
     bottom: 560px;
-    left: 10px;
+    left: 60px;
 }
 ._01{
      top: -25px;
@@ -236,6 +241,30 @@ box-shadow: 2px 2px 1px 1.5px rgba(63, 63, 63, 0.2 );
 ._05{
     top: 325px;
     left: 890px;
+}
+.sub-h{
+    color: #3f3f3f;
+    font-family: var(--primary-font);
+    font-size: 18px;
+}
+.link-contact{
+    padding-left: 60px;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+.link-contact a{
+    color: var(--secondary-color);
+}
+.link-contact a:hover{
+background-color: var(--secondary-color);
+color: var(--primary-color);
+border-radius: 30px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 8px;
+transition: 10ms  ease-in-out;
+cursor: pointer;
 }
 .serv-head{
      font-family: var(--secondary-font);
