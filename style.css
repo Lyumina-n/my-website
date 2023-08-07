@@ -406,3 +406,37 @@ margin-left: 25px;
 font-family: var(--primary-font);
 font-size: 12px;
    }
+   footer{
+    background-color: #202020;
+    height: 230px;
+   }
+   .foot-head{
+    margin-top: 60px;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 30px;
+
+   }
+   .foot-sub{
+    color: #525252;
+    padding-top: 40px;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+   }
+   .foot-hd-cont{
+    margin-top: 60px;
+    color: #525252;
+    font-family: var(--primary-font);
+    font-size: 30px;
+   }
+.cnt-ft{
+    padding-top: 18px;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.ft-phn{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+}
