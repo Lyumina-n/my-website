@@ -1,0 +1,417 @@
+    <div class="container">
+        <div class="calendar-new">
+            <div class="serv-head cln-hd">
+        <h2><span class="text-11">Book</span> the meeting with us</h2>
+        </div>
+        <div class="table-responsive">
+        <table class="table table-bordered" >
+  <tbody>
+    <div class="month">
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li><span class="current-month">July</span>
+                    <br> <span class="current-day">Today</span>
+                     <br><span class="current-year">2023</span></li>
+            </ul>
+        </div>
+        <ul class="weekdays">
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+            <li>Saturday</li>
+            <li>Sunday</li>
+        </ul>
+    <tr class="week-11">
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+    </tr>
+     <tr class="week-11">
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+    </tr>
+     <tr class="week-11">
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+    </tr>
+     <tr class="week-11">
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+    </tr>
+     <tr class="week-11">
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
+    </tr>
+    </tbody>
+</table>
+</div>
+        </div>
+    </div>
+
+<div class="container">
+        <div class="feed-head">
+            <ul>
+                <li><span class="feedback-hd"><h2>Feedbacks</h2></span>
+                    <br> <span class="feed-subhead"><p>Our clients share their feedbacks</p></span>
+                     </li>
+            </ul>
+            </div>
+        <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex">
+                <div class="carousel-item-inner fdb-crds "  data-bs-slide-to="0" >
+                    
+                    <p>Hi 1,
+
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+                </div>
+ <div class="carousel-item-inner fdb-crds " data-bs-slide-to="1">
+                    
+                    <p>Hi 1,
+
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+                </div>
+                <div class="carousel-item-inner fdb-crds "  data-bs-slide-to="2">
+                    
+                    <p>Hi 1,
+
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+                </div>
+                </div>
+                </div>
+                <div class="carousel-item fdb-crds " style="flex: 0 0 33%;" >
+                    
+                    <p>Hi 1,
+
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+                </div>
+                <div class="carousel-item fdb-crds " style="flex: 0 0 33%;" >
+                    
+                    <p>Hi 2,
+
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+</div>
+                </div>
+                <a class="carousel-control-prev pr-arrow" href="#myCarousel" role="button" data-bs-slide="prev" >&#10094;</a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next" >&#10095;</a>
+        </div>
+    </div>
+
+ .feed-head ul{
+    list-style: none;
+   }
+   .feedback-hd{
+font-family: var(--secondary-font);
+
+
+   }
+   .feedback-hd h2{
+      font-size: 60px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    padding-top: 50px;
+    letter-spacing: 2px;
+}
+   .feed-head .prev-feed{
+    float: left;
+   }
+   .feed-head .next-feed{
+    float: right;
+   }
+   .feed-subhead{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+   }
+
+
+async function sendEmail(event) {
+  event.preventDefault(); 
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  try {
+    const response = await fetch('/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ name, email, message })
+    });
+
+    if (response.ok) {
+      alert('Email sent successfully!');
+    } else {
+      alert('Failed to send email. Please try again later.');
+    }
+  } catch (error) {
+    console.error('Error sending email:', error);
+    alert('Failed to send email. Please try again later.');
+  }
+}
+
+
+const express = require('express');
+const axios = require('axios');
+const app = express();
+
+app.use(express.json());
+
+app.post('/send-email', async (req, res) => {
+  const { name, email, message } = req.body;
+
+  const templateParams = {
+    from_name: name,
+    message: message
+  };
+
+  const client = axios.create({
+    baseURL: 'https://api.mailtrap.io/v1/',
+    auth: {
+      username: '57c41aaaa1e319',
+      password: '2d722ae1f333d1'
+    }
+  });
+
+  try {
+    const response = await client.post('/v1/inboxes/2423479/messages', {
+      to_email: 'thekoscode@gmail.com',
+      subject: 'Contact Form Submission',
+      body: JSON.stringify(templateParams)
+    });
+
+    console.log('Email sent:', response.data);
+    res.status(200).send('Email sent successfully');
+  } catch (error) {
+    console.error('Error sending email:', error);
+    res.status(500).send('Failed to send email');
+  }
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
+
+nav  .nav-link{
+    color: #414141;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    transition: all 100ms ease-in-out;
+ }
+nav  .nav-link:hover{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+ nav .active{
+       text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 16px;
+ }
+nav .brand{
+    font-family: var(--primary-font);
+    font-size: 30px;
+    font-weight:  500;
+    padding-left: 50px;
+    color: #414141;
+}
+
+ <div class="niches-info  _12-grid">
+                <img src="src/curved-line.svg" alt="" class="line-desk">
+                    
+                <div class="niche-point _00">
+                        <a href="#" class="round-point d-inline-block">
+                            <div class="number-pixel">01</div>
+                        </a>
+                <p class="sub-h center"> Digital marketing SMM,<br> Target, copywriting etc </p>
+                    </div>
+                    <div class="niche-point _01">
+                        <a href="#" class="round-point d-inline-block">
+                            <div class="number-pixel">02</div>
+                        </a>
+                <p class="sub-h center">Online shop</p>
+                    </div>
+                    <div class="niche-point _02">
+                        <a href="#" class="round-point d-inline-block">
+                            <div class="number-pixel">03</div>
+                        </a>
+                <p class="sub-h center">Education products</p> 
+                    </div>
+                    <div class="niche-point _03">
+                        <a href="#" class="round-point d-inline-block">
+                            <div class="number-pixel">04</div>
+                        </a>
+                <p class="sub-h center"> Consulting expert</p> 
+                    </div>
+                    <div class="niche-point _04">
+                        <a href="#" class="round-point d-inline-block">
+                            <div class="number-pixel">05</div>
+                        </a>
+                <p class="sub-h center"> Photography</p> 
+                    </div>
+                    <div class="niche-point _05">
+                        <a href="#" class="round-point d-inline-block">
+                            <div class="number-pixel">06</div>
+                        </a>
+                <p class="sub-h center"> Your niche is unlocked yet. <br><span class="link-contact"><a href="linkToContact" >Contact us</a></span></p> 
+                    </div>
+                    </div>
+            </div>
+
+ ._12-grid{
+    margin-top: 700px;
+    height: 500px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: block;
+    position: relative;
+ }
+.line-desk{
+    z-index: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+}
+.round-point{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+box-shadow: 2px 2px 1px 1.5px rgba(63, 63, 63, 0.2 );
+}
+.number-pixel{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.niche-point{
+    grid-row-gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+.niche-point a{
+cursor: default;
+}
+.niche-point a:hover{
+    text-decoration: none;
+}
+.niche-point p{
+    font-size: 16px;
+    line-height: 20px;
+}
+._00 a{
+    padding-bottom: 40px;
+}
+._01 a{
+    padding-bottom: 40px;
+}
+ ._00{
+    top: -25px;
+    bottom: 560px;
+left: 75px;
+}
+._01{
+     top: -25px;
+    bottom: 550px;
+    right: 330px;
+}
+._02{
+    top: 150px;
+    right: 130px;
+}
+._03{
+    top: 150px;
+    left: 280px;
+}
+._04{
+    top: 325px;
+    left: 130px;
+}
+._05{
+    top: 325px;
+    right: 10px;
+}
+.sub-h{
+    color: #3f3f3f;
+    font-family: var(--primary-font);
+    font-size: 18px;
+}
+.link-contact{
+    padding-left: 60px;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+.link-contact a{
+    color: var(--secondary-color);
+}
+.link-contact a:hover{
+background-color: var(--secondary-color);
+color: var(--primary-color);
+border-radius: 30px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+padding-bottom: 3px;
+transition: 10ms  ease-in-out;
+cursor: pointer;
+}
+

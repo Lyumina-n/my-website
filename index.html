@@ -4,132 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="app.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&family=Ysabeau+SC:wght@200;500;700;800&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="app.js"></script>    
-
-<title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<title>The KosCode</title>
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-   <h3> <span class="navbar-brand mb-0 h1 brand">The KosCode</span></h3>
-    <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">About us</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Services</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Projects</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Book a meeting</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Feedbacks</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
-  </li> 
-</ul>
+    <nav class="navbar navigation-menu navbar-expand-md fixed-top" >
+  <div class="container-fluid ">
+    <h3 class="navbar-brnd" href="#">The KosCode</h3>
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon nav-mn-icn"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#main-page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="#nav-link" href="#about-page">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#niche-page">Niches</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#service-page">Services</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#book-meeting">Book a meeting</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contacts</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
-<section class="main-page">
+<section class="main-page" id="main-page">
     <div class="container">
-        <div class="row mx-auto">
-            <div class="col-8 main-text">
+            <div class="main-text">
                 <div class="main-phrase">
-        <p class="mb-2">Create your website</p>
+                    <p class="main-cnt-p-resposive">The ultimate hub for unleashing your small business's online potential </p>
+        <p class="main-cnt-p mb-2">Create your website</p>
         </div>
         <div class="subtitle-hero">
-        <h1><strong>Ready to make a digital splash?</strong></h1>
+        <h1 class="subtitle-hero-h" id="subtitle-hero-h"><strong>Ready to make a<br>DIGITAL SPLASH?</strong></h1>
+        <h1 class="subtitle-hero-h-responsive" id="subtitle-hero-h-responsive"><strong><span class="sml-sb-hd">Ready to make a</span><br/> DIGITAL<br/> SPLASH?</strong></h1>
         </div>
         <div class="all-content">
-        <p>The ultimate hub for unleashing your small business's online potential </p>
-        <a href="#" class="btn btn-branding-outline">Book a meeting</a>
+        <p class="all-cnt-p">The ultimate hub for unleashing your small business's online potential </p>
+        <p class="all-cnt-p-responsive">Create your website</p>
+        <a href="#book-meeting" class="btn btn-branding-outline">Book a meeting</a>
         </div>
         </div>
-        <div class="col-4 main-pic">
-   <img src="src/main-pic.png" alt="" class="img-fluid">
-   </div>
-   </div>
    </div>
 </section>
-<section class="about-page">
-    <div class="container">
+<section class="about-page" id="about-page">
+    <div class="container ">
         <div class="about-page-head">
-        <div class="row">
-            <div class="col-9">
-                <div class="head-about mt-5 mb-5">
-        <h2>
-            <span class="text-11">Key points</span><span class="text-22"> in The KosCode</span> 
+            <div class="head-about">
+        <h2>The KosCode
+            <span class="text-11">Key points</span>  
             </h2>
+            <p class="subhead-about">We chose our main points because focus is <span class="text-12"> our power</span></p>
             </div>
             </div>
-            <div class="col-3">
-                <div class="subhead-about mt-5 mb-5">
-            <p>We chose our main points </br> because focus</br> is<span class="text-11"> our power</span></p>
-        </div>    
-        </div>
-            </div>
-            </div>
-            </div>
-            <div class="container">
-                <div class="about-all-text">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="point-block-33 mt-3 mb-5">
-                        <div class="point-text-block-11">
-                        <h3>Small business</h3>
-                        </div>
-                        <div class="point-text-block-22">
-                         <p>
-            The KosCoding is young small business run by women.
-            <br/>
-            As a small business we know your pain, and created safe enviroment for all your questions and crazy ideas.
-        </p>
-        </div>
-    </div>
-    </div>
-                    <div class="col-4">
-                        <div class="point-block-34 mt-3 mb-5">
-                        <div class="point-text-block-11 ">
-                        <h3>Simple - is new black</h3>
-                        </div>
-                        <div class="point-text-block-22">
+            
+                <div class="about-all-text mt-4 row ">
+                    <div class="col-sm-4 mt-3 ">
+                            <div class="point-block-3">
+                                        <h3>Simple is a new black</h3>
+                    
                         <p>
             We build customer friendly websites that looks great at any devices, analysing the niche, without overloaded design and extra features that distruct the focus. 
                             <br/>
            Building your website SEO friendly allows to use more promo tools and you will find your perfect buyer.
                         </p>
+        </div>
+    </div>
+                    <div class="col-sm-4 im-rel mt-3">
+                                                 <div class="point-block-3 blck-pnk">
+                            <h3 class="h-mn">Small business</h3>
+                         <p>
+            The KosCode is young small business run by women.
+            <br/>
+            As a small business we know your pain, and created safe enviroment for all your questions and crazy ideas.
+        </p> 
+       
                         </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="point-block-35 mt-3 mb-5">
-                        <div class="point-text-block-11">
-                        <h3>Automated processes </h3>
-                        </div>
-                        <div class="point-text-block-22">
-                        <p>We build features as instant payments, online calendar, instant booking of the meetings and others depending on your niche so your clients are not distracted by extra steps and make purchase decision faster. 
-                        </br>Meanwhile you enjoy your coffee and invest more time in your business and life.
+                                 <div class="mtl-im mt-3">
+            <img src="src/metal.png" alt="" class="metal-shape">
+ </div>
+                         </div>
+                    <div class="col-sm-4 mt-3">
+                        <div class="point-block-3">
+                            <h3>Automated processes </h3>
+                        <p>We build features as instant payments, online calendar, instant booking of the meetings and others depending on your niche so your clients are not distracted by extra steps and make purchase decision faster. Meanwhile you enjoy your coffee and invest more time in your business and life.
                         </p>
-                        </div>
-                    </div>
-                    </div>
            </div>
+           </div>
+       
            </div>
         </div>
+        
     </section>
-    <section class="niche-page">
+    <section class="service-page" id="service-page">
+    <div class="container">
+      <div class="serv-head ">
+        <h2>We will <span class="text-11">do this</span> to your website</h2>
+        </div>
+        <div class="serv-points">
+            <div class="row first-line">
+<div class="col-4 serv-pnt">
+    <img src="src/cat-comp.png" class="serv-cat" alt="">
+</div>
+<div class="col-4 serv-pnt">
+    <div class="srv-info first">
+        <h2 class="h-srv">SEO friendly</h2>
+        <p class="p-srv">We build websites using SEO tools, to make your website SEO friendly and expand the ways customers can find your website.</p>
+    </div>
+</div>
+        <div class="col-4 serv-pnt">
+            <div class="srv-info first">
+    <h2 class="h-srv">All  in one </h2>
+        <p class="p-srv">All your updated infromation will be gathered at your websites. You no longer loose clients by making them look through all Instagram or TikTok posts and waste their time.</p>
+    </div>
+    </div>
+</div>
+<div class="row second-line">    
+<div class="col-4 serv-pnt ">
+    <div class="srv-info second-lft">
+    <h2 class="h-srv">Portfolio</h2>
+        <p class="p-srv">Save your time and just send the link on your portfolio section</p>
+    </div>
+</div>
+        <div class="col-4 serv-pnt">
+    <div class="srv-info second-middle">
+    <h2 class="h-srv">Feedback</h2>
+        <p class="p-srv">Be proud of yourself and share feedbacks with style.</p>
+</div>
+    </div>
+        <div class="col-4 serv-pnt">
+    <div class="srv-info srv-right">
+        <img src="src/metal-star.png" class="srv-pic-metal" alt="">
+    <h2 class="h-srv"> Responsiveness</h2>
+        <p class="p-srv">Your website will look stunning at all devices and platforms.</p>
+    </div>
+</div>
+    </div>
+        </div>  
+    </div>
+    </section>
+    <section class="niche-page" id="niche-page">
         <div class="container">
             <div class="niche-heading">
                 <div class="niche-main-head">
@@ -142,238 +170,176 @@
             Book a meeting if it is your field</p>
             </div>
             </div>
-            <div class="niches-info row _12-grid">
-                <img src="src/curved-line.svg" alt="" class="line-desk">
-                    
-                <div class="niche-point _00">
-                        <a href="#" class="round-point d-inline-block">
-                            <div class="number-pixel">01</div>
-                        </a>
-                <p class="sub-h center"> Digital marketing SMM,<br> Target, copywriting etc </p>
-                    </div>
-                    <div class="niche-point _01">
-                        <a href="#" class="round-point d-inline-block">
-                            <div class="number-pixel">02</div>
-                        </a>
-                <p class="sub-h center"> Consulting expert </p>
-                    </div>
-                    <div class="niche-point _02">
-                        <a href="#" class="round-point d-inline-block">
-                            <div class="number-pixel">03</div>
-                        </a>
-                <p class="sub-h center"> Online education products</p> 
-                    </div>
-                    <div class="niche-point _03">
-                        <a href="#" class="round-point d-inline-block">
-                            <div class="number-pixel">04</div>
-                        </a>
-                <p class="sub-h center"> Yoga instructor or studio</p> 
-                    </div>
-                    <div class="niche-point _04">
-                        <a href="#" class="round-point d-inline-block">
-                            <div class="number-pixel">05</div>
-                        </a>
-                <p class="sub-h center"> Photography</p> 
-                    </div>
-                    <div class="niche-point _05">
-                        <a href="#" class="round-point d-inline-block">
-                            <div class="number-pixel">06</div>
-                        </a>
-                <p class="sub-h center"> Your niche is unlocked yet. <br><span class="link-contact"><a href="linkToContact" >Contact us</a></span></p> 
-                    </div>
-                    </div>
-            </div>
-    </div>
-</section>
-<section class="service-page">
-    <div class="container">
-        <div class="serv-head  mt-5">
-        <h2>We will <span class="text-11">do this</span> to your website</h2>
-        </div>
-        <div class="serv-info">
-            <div class="row">
-            <div class="serv-img-block col-4">
-                <img src="src/serv-pic.jpg" alt="" class="serv-img mb-5">
-            </div>
-            <div class="serv-main-info col-8">
-                <div class="row">
-                    <div class="col-5 serv-txt-1">
-                     <div class="img-block"><img src="src/leaf.svg" alt="" class="img-11"></div>   
-                <h2> Responsiveness</h2>
-        <p>Your website will look stunning at all devices and platforms.</p>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 serv-txt-1">
-            <div class="img-block"><img src="src/circles.svg" alt="" class="img-11"></div>
-            <h2>Online Payments</h2>
-        <p>Choose your payment system and we integrate it into your website.</p>
-        
-            </div>
-</div>
+            <div class="niches-new">
 <div class="row">
-    <div class="col-5 serv-txt-1">
-    <div class="img-block"><img src="src/line.svg" alt="" class="img-11"></div>
-        <h2>Online Appointmets</h2>
-        <p>We build customized calender. Now your clients can instantly book a meeting with you, without long calls or texting in different messagers. Save your time for coffee, new ideas or education.</p>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 serv-txt-1 ">
-            <div class="img-block"><img src="src/spot.svg" alt="" class="img-11"></div>
-            <h2>All  in one </h2>
-        <p>All your updated infromation will be gathered at your websites. You no longer loose clients by making them look through all Instagram or TikTok posts and waste their time.</p>
-        </div>
-       </div>
-        <div class="row">
-        <div class="col-5 serv-txt-1 ">
-            <div class="img-block"><img src="src/circles.svg" alt="" class="img-11"></div>
-            <h2>Portfolio</h2>
-        <p>Save your time and just send the link on your portfolio section</p>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 serv-txt-1 ">
-            <div class="img-block"><img src="src/leaf.svg" alt="" class="img-11"></div>
-        <h2>Feedback</h2>
-        <p>Be proud of yourself and share feedbacks with style.</p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-    </div>
-</section>
-<section class="calendar-page">
-    <div class="container">
-        <div class="calendar">
-            <div class="serv-head  mt-5">
-        <h2><span class="text-11">Book</span> the meeting with us</h2>
-        </div>
-        <div class="table-responsive">
-        <table class="table table-bordered" >
-  <tbody>
-    <div class="month">
-            <ul>
-                <li class="prev">&#10094;</li>
-                <li class="next">&#10095;</li>
-                <li><span class="current-month">July</span>
-                    <br> <span class="current-day">Today</span>
-                     <br><span class="current-year">2023</span></li>
-            </ul>
-        </div>
-        <ul class="weekdays">
-            <li>Monday</li>
-            <li>Tuesday</li>
-            <li>Wednesday</li>
-            <li>Thursday</li>
-            <li>Friday</li>
-            <li>Saturday</li>
-            <li>Sunday</li>
-        </ul>
-    <tr class="week-11">
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-    </tr>
-     <tr class="week-11">
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-    </tr>
-     <tr class="week-11">
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-    </tr>
-     <tr class="week-11">
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-    </tr>
-     <tr class="week-11">
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-      <td class="day-11" height="150" width="150"><p class="day-123">1</p><a href="#"><p>Book a meeting</p></a></td>
-    </tr>
-    </tbody>
-</table>
+    <div class="nch-1 col-4">
+ <div class="nch-point-lft frst-resp">
+        <img class="arrow1" src="src/arrow1.webp" alt="">
+ <div class="nch-txt-left">
+        <p class="sub-nch">  Digital marketing :<br><span class="resp-nch">SMM, Target, copywriting etc</span></p>
+ </div>
+ </div>
+  <div class="nch-point-lft _l2">
+        <img class="arrow1" src="src/arrow1.webp" alt="">
+ <div class="nch-txt-left">
+        <p> Online shop</p>
+ </div>
+ </div>
+  <div class="nch-point-lft _l2">
+        <img class="arrow1" src="src/arrow1.webp" alt="">
+ <div class="nch-txt-left">
+        <p class="sub-nch"> Education products</p>
+ </div>
+ </div>
+
+      </div>
+    <div class="nch-pic col-4">
+<img class="niche-pict" src="src/operators.gif" alt=""> 
 </div>
-        </div>
-    </div>
-</section>
-<section class="feedback-page">
-    <div class="container">
-        <div class="feed-head">
-            <ul>
-                <li class="prev-feed">&#10094;</li>
-                <li class="next-feed">&#10095;</li>
-                <li><span class="feedback-hd"><h2>Feedbacks</h2></span>
-                    <br> <span class="feed-subhead"><p>Our clients share their feedbacks</p></span>
-                     </li>
-            </ul>
+<div class="nch-2 col-4">
+    <div class="nch-point-rght frst-resp">
+        <img class="arrow2" src="src/arrow1.webp" alt="">
+        <div class="nch-txt-right">
+ <p class="sub-nch"> Consulting expert</p>
+ </div>
+ </div>
+ <div class="nch-point-rght _r2">
+     <img class="arrow2" src="src/arrow1.webp" alt="">
+     <div class="nch-txt-right">
+ <p class="sub-nch"> Photography</p>
+</div>
+ </div>
+ <div class="nch-point-rght _r2">
+    <img class="arrow2" src="src/arrow1.webp" alt="">
+    <div class="nch-txt-right">
+ <p class="sub-nch"> Your niche is unlocked yet. <br><span class="link-contact"><a href="#book-meeting" >Contact us</a></span></p>
+</div>
+</div>
+</div>
+</div>               
             </div>
-        <div class="fdb-cards">
+        </div>     
+</section>
+
+<section class="feedback-page" id="feedback-page">
+    <div class="container">
         
-                <div class="fdb-crds">
-                    <p>Hi 1,
-
-Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
-
-</p>
-                </div>
-                <div class="fdb-crds">
-                    <p>Hi 2,
-
-Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
-
-</p>
-                </div>
-                <div class="fdb-crds">
-                    <p>Hi 3,
-
-Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
-
-</p>
-                </div>
-                <div class="fdb-crds">
-                    <p>Hi 4,
-
-Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
-
-</p>
-                </div>
-                <div class="fdb-crds">
-                    <p>Hi 5,
-
+    <div class="swiper mySwiper">
+            <span class="feed-head mt-5"><h2 >Feedbacks</h2>
+                    <p><span class="text-11"> Our clients </span> share their feedbacks</p></span>
+  <div class="swiper-wrapper mt-5 mb-5">
+    <div class="swiper-slide">
+         <div class="feed-info">
+        <p>Hi 1,
+        </br></br>
 Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
 
 </p>
 </div>
+    </div>
+    <div class="swiper-slide">
+                  <div class="feed-info">
+        <p>Hi 2,
+</br></br>
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+    </div>
+    </div>
+    <div class="swiper-slide">
+                  <div class="feed-info">
+        <p>Hi 3,
+</br></br>
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+    </div>
+    </div>
+    <div class="swiper-slide">
+                    <div class="feed-info">
+        <p>Hi 4,
+</br></br>
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+    </div>
+    </div>
+    <div class="swiper-slide">
+                    <div class="feed-info">
+        <p>Hi 5,
+</br></br>
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+    </div></div>
+    <div class="swiper-slide">
+                    <div class="feed-info">
+        <p>Hi 6,
+</br></br>
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+    </div>
+    </div>
+    <div class="swiper-slide">
+                    <div class="feed-info">
+        <p>Hi 7,
+</br></br>
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+    </div>
+    </div>
+    <div class="swiper-slide">
+          <div class="feed-info">
+        <p>Hi 8,
+</br></br>
+Thank You for deciding to use our business! As a new customer, it would be great to hear about your first impressions. So please leave us a review at [Link].
+
+</p>
+</div>
+    </div>
+    
+  </div>
+  <div class="swiper-button-prev" style="color:#cd819d; top: 120px;"></div>
+  <div class="swiper-button-next" style="color:#cd819d; top: 120px;"></div>
+</div>
+</div>
+   </section>
+   <section class="book-meeting" id="book-meeting">
+    <div class="container ">
+        <div class="book-head mb-4">
+            <h1>Book a <span class="text-11"> meeting</span> with us</h1> 
         </div>
+        <div class="bk-mtng">
+<div class="bk-box">
+    <div class="book-slide-up">
+        <p class="bk-frm-sub mt-3"><strong> Step 1.</strong> Fill in the form and click "Send"</p>
+    <form class="contact-form" onsubmit="sendEmail(event)">
+        <div class="row">
+        <div class="col-6 ">
+<input type="text" id="name" name="name" placeholder="Your name" required>
+<input type="email" id="email" name="email" placeholder="Your email" required>
+</div>
+<div class="col-6 ">
+<textarea  name="message"  id="message" cols="30" rows="3" placeholder="How can we help you?"></textarea>
+
+</div>
+</div>
+<p><input type="submit" class="book-bt" id="bkBttn" name="submit" value="Send"></p>
+    </form>
+    </div>
+    <div class="book-slide-down"></div>
         </div>
-</section>
+        
+    </div>
+    </div>
+
+   </section>
 <footer>
 <div class="container">
     <div class="row">
-    <div class="col-7">
+    <div class="col-6">
         <h1 class="foot-head">
             The KosCode
         </h1>
@@ -381,8 +347,8 @@ Thank You for deciding to use our business! As a new customer, it would be great
             2023
         </p>
     </div>
-    <div class="col-4">
-        <h1 class="foot-hd-cont">
+    <div class="col-5">
+        <h1 class="foot-hd-cont" id="contact-section">
             Contacts
         </h1>
         <p class="cnt-ft">
@@ -394,5 +360,7 @@ Thank You for deciding to use our business! As a new customer, it would be great
     </div>
 </div>
 </footer>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
